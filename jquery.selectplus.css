@@ -1,0 +1,44 @@
+body
+{
+	 background: -webkit-gradient(linear, left top, left bottom, to(#fff), from(#00abeb));
+	 background: -moz-linear-gradient(top, #00abeb, #fff);
+	 height: 100%;
+}
+
+
+#example1
+{
+	margin: 200px;
+}
+
+.selector
+{
+	position: relative;
+	height: 20px;
+	width: 200px;
+	border: 2px solid black;
+	overflow: hidden;
+	padding: 0px 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #99CCFF;
+}
+
+.selector ul
+{
+	position: absolute;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.selector ul li
+{
+	height: 20px;
+	width: 200px;
+	overflow: hidden;
+}
